@@ -70,7 +70,7 @@ span {
 }
 
 .container {
-  margin: 0 5vw;
+  margin: 0 0.5vw;
 }
 
 .text-grey {
@@ -88,7 +88,7 @@ p {
   height: 0rem;
   min-height: 15vh;
   overflow: hidden;
-  transition: height 0.5s ease-in-out;
+  transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu {
@@ -343,6 +343,26 @@ main .post-content .post-title a {
 
 .site-content > .sidebar .category-list .list-items a {
   color: black;
+}
+
+.site-content .sidebar .popular-post .post-content {
+  padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-post h2 {
+  padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info {
+  padding: 0.4rem 0.1rem !important;
+  bottom: 0rem !important;
+  left: 1.5rem !important;
+  border-radius: 0rem !important;
+  background: white !important;
+}
+
+.site-content .sidebar .popular-post .post-title a {
+  font-size: 1rem;
 }
 
 /*  Viewport less than or equal to 750px  */
