@@ -70,7 +70,7 @@ span {
 }
 
 .container {
-  margin: 0 0.5vw;
+  margin: 0 5vw;
 }
 
 .text-grey {
@@ -262,6 +262,7 @@ main .site-content {
 
 main .post-content {
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 main .site-content .post-content > .post-image,
@@ -270,8 +271,7 @@ main .site-content .post-content > .post-image,
   position: relative;
 }
 
-main .site-content .post-content > .post-image,
-.post-info {
+main .site-content .post-content > .post-image .post-info {
   background: var(--sky);
   padding: 1rem;
   position: absolute;
