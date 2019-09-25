@@ -56,7 +56,7 @@ h3 {
   font-size: 1.3rem;
 }
 
-button .btn {
+button.btn {
   border-radius: 2rem;
   padding: 1rem 3rem;
   font-size: 1rem;
@@ -193,13 +193,13 @@ main .blog {
   background: url("../assets/Abract01.png");
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
-  widows: 100%;
+  height: 65vh;
+  width: 100%;
   background-size: 65%;
 }
 
 main .blog .blog-post {
-  padding-top: 6rem;
+  padding-top: 2rem;
 }
 
 main .blog-post .blog-content {
@@ -219,6 +219,7 @@ main .blog-content .btn-blog {
   padding: 0.7rem 2rem;
   background: var(--sky);
   margin: 0.5rem;
+  border-radius: 0.8rem;
 }
 
 main .blog-content span {
@@ -302,7 +303,7 @@ main .post-content .post-title a {
 }
 
 .site-content .post-content .post-title .post-btn {
-  border-radius: 0;
+  border-radius: 0.5rem;
   padding: 0.7rem 1.5rem;
   background: var(--sky);
 }
@@ -437,19 +438,19 @@ footer.footer .newsletter .form-element input {
 
 footer.footer .newsletter .news-btn {
   background: var(--sky);
+  border-radius: 0.5rem;
   padding: 0.5rem 0.3rem;
   margin: 0.2rem 0;
   cursor: pointer;
 }
 
 footer.footer .newsletter .news-btn:hover {
-  background: var(--white);
+  cursor: pointer;
 }
 
 footer.footer .newsletter .form-element span {
   background: var(--sky);
   padding: 0.5rem 0.7rem;
-  cursor: pointer;
 }
 
 footer.footer .instagram div > img {
@@ -528,7 +529,7 @@ footer.footer .move-up span:hover {
 /*  Viewport less than or equal to 520px  */
 @media only screen and (max-width: 520px) {
   main .blog {
-    height: 125vh;
+    height: 70vh;
   }
 
   .site-content .post-content > .post-image .post-info {
