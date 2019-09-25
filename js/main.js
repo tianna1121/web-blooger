@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log("heeeeeee");
   $nav = $(".nav");
   $toggleCollapse = $(".toggle-collapse");
 
