@@ -326,6 +326,25 @@ main .post-content .post-title a {
   color: var(--white);
 }
 
+/* Side Bar */
+.site-content > .sidebar .category-list {
+  font-family: var(--Livvic);
+}
+
+.site-content > .sidebar .category-list .list-items {
+  background: var(--sky);
+  padding: 4rem 1rem;
+  margin: 8rem 0;
+  border-radius: 3rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-content > .sidebar .category-list .list-items a {
+  color: black;
+}
+
 /*  Viewport less than or equal to 750px  */
 @media only screen and (max-width: 750px) {
   .nav .nav-menu,
