@@ -1,4 +1,7 @@
 const responsive = {
+  0: {
+    items: 1
+  },
   320: {
     items: 1
   },
