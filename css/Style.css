@@ -57,7 +57,6 @@ h3 {
 }
 
 button.btn {
-  border: none;
   border-radius: 2rem;
   padding: 1rem 3rem;
   font-size: 1rem;
@@ -86,7 +85,7 @@ p {
   background: white;
   padding: 0.2rem;
   height: 0rem;
-  min-height: 15vh;
+  min-height: 8vh;
   overflow: hidden;
   transition: height 1s ease-in-out;
 }
@@ -262,7 +261,7 @@ main .site-content {
 
 main .post-content {
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 main .site-content .post-content > .post-image,
@@ -333,8 +332,8 @@ main .post-content .post-title a {
 
 .site-content > .sidebar .category-list .list-items {
   background: var(--sky);
-  padding: 4rem 1rem;
-  margin: 8rem 0;
+  padding: 0.4rem 1rem;
+  margin: 0.8rem 0;
   border-radius: 3rem;
   width: 70%;
   display: flex;
@@ -350,7 +349,7 @@ main .post-content .post-title a {
 }
 
 .site-content .sidebar .popular-post h2 {
-  padding-top: 8rem;
+  padding-top: 0.8rem;
 }
 
 .site-content .sidebar .popular-post .post-info {
