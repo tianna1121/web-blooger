@@ -366,7 +366,7 @@ main .post-content .post-title a {
 }
 
 .site-content .sidebar .newsletter {
-  padding-top: 3rem;
+  padding-top: 10rem;
 }
 
 .site-content .sidebar .newsletter .form-element {
@@ -387,6 +387,18 @@ main .post-content .post-title a {
   margin: 1rem 0;
   background: var(--sky);
 }
+
+.site-content .sidebar .popular-tags {
+  padding: 5rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag {
+  background: var(--sky);
+  padding: 0.4rem 1rem;
+  border-radius: 3rem;
+  margin: 0.4rem 0.6rem;
+}
+
 /*  Viewport less than or equal to 750px  */
 @media only screen and (max-width: 750px) {
   .nav .nav-menu,
