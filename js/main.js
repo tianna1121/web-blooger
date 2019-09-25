@@ -45,4 +45,7 @@ $(document).ready(function() {
       1000
     );
   });
+
+  // animation on scroll: AOS instance
+  AOS.init();
 });
